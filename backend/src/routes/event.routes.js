@@ -1,6 +1,5 @@
 import express from "express";
 
-import { authProtection } from "../middleware/auth.js";
 import {
   deleteEvent,
   createEvent,
@@ -9,6 +8,7 @@ import {
   updateEvent,
   getParticularUserEvents,
 } from "../controller/event.controller.js";
+import { authProtection } from "../middleware/Auth.js";
 
 const router = express.Router();
 
