@@ -6,6 +6,7 @@ import cors from "cors";
 import cookieParser from "cookie-parser";
 import connectDB from "./utils/db.js";
 import errorHandler from "./middleware/errorMiddleware.js";
+import path from "path";
 
 dotnev.config();
 const __dirname = path.resolve();
