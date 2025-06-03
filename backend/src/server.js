@@ -8,6 +8,7 @@ import connectDB from "./utils/db.js";
 import errorHandler from "./middleware/errorMiddleware.js";
 
 dotnev.config();
+const __dirname = path.resolve();
 const app = express();
 
 const PORT = process.env.PORT || 5001;

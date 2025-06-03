@@ -1,6 +1,6 @@
 import express from "express";
 
-import { authProtection } from "../middleware/auth.js";
+import { authProtection } from "../middleware/Auth.js";
 import {
   deleteUser,
   getUserProfile,
